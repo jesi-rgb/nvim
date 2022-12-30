@@ -27,6 +27,12 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
   use('mattn/emmet-vim')
   use('psf/black')
+  use {
+      "terrortylor/nvim-comment",
+      requires={ 'terrortylor/nvim-comment' },
+      config = function() require("nvim_comment").setup() end
+  }
+
 
 
   use {
