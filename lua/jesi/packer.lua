@@ -26,6 +26,8 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('mattn/emmet-vim')
+  use('psf/black')
+
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
@@ -48,6 +50,7 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+
 
 
 end)

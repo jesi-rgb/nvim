@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/jesi/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  black = {
+    loaded = true,
+    path = "/Users/jesi/.local/share/nvim/site/pack/packer/start/black",
+    url = "https://github.com/psf/black"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/jesi/.local/share/nvim/site/pack/packer/start/cmp-buffer",
